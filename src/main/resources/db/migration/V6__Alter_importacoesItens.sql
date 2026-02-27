@@ -1,0 +1,1 @@
+ALTER TABLE importacao_itens ADD FOREIGN KEY (importacao_id) REFERENCES importacoes(id)
